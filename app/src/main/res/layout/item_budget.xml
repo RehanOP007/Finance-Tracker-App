@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/budgetLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Total Budget Display -->
+        <TextView
+            android:id="@+id/tvTotalBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:paddingBottom="8dp" />
+
+
+        <!-- Budget Progress -->
+        <ProgressBar
+            android:id="@+id/budgetProgress"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:progressDrawable="@drawable/progress_bar_budget"
+            android:layout_marginBottom="16dp"
+            android:max="100"
+            style="@android:style/Widget.ProgressBar.Horizontal" />
+
+        <!-- Budget Status Text -->
+        <TextView
+            android:id="@+id/tvBudgetStatus"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/remaining_0_00"
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/btnDeleteBudget"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="380dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/delete_budget"
+            android:padding="4dp"
+            android:src="@android:drawable/ic_menu_delete"
+            app:tint="@android:color/holo_red_dark" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/divider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description" />
+
+
+        <!-- Line Chart -->
+        <!--<com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart"
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_chart_bg" />-->
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

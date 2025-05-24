@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finance Tracker</string>
+    
+    <!-- Navigation -->
+    <string name="dashboard">Dashboard</string>
+    <string name="transactions">Transactions</string>
+    <string name="budget">Budget</string>
+    <string name="reports">Reports</string>
+    <string name="onboarding">Welcome</string>
+    
+    <!-- Common -->
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    
+    <!-- Transaction -->
+    <string name="add_transaction">Add Transaction</string>
+    <string name="edit_transaction">Edit Transaction</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="recurring">Recurring</string>
+    
+    <!-- Budget -->
+    <string name="add_budget">Add Budget</string>
+    <string name="edit_budget">Edit Budget</string>
+    <string name="budget_amount">Budget Amount</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="alert_threshold">Alert Threshold</string>
+    
+    <!-- Reports -->
+    <string name="total_income">Total Income</string>
+    <string name="total_expense">Total Expense</string>
+    <string name="balance">Balance</string>
+    <string name="spending_by_category">Spending by Category</string>
+    <string name="income_trend">Income Trend</string>
+    <string name="expense_trend">Expense Trend</string>
+    
+    <!-- Onboarding -->
+    <string name="welcome_to_finance_tracker">Welcome to Finance Tracker</string>
+    <string name="track_your_finances">Track your finances easily and efficiently</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    
+    <!-- Notifications -->
+    <string name="budget_alert_title">Budget Alert</string>
+    <string name="budget_alert_message">You have reached %1$s%% of your %2$s budget</string>
+    
+    <!-- Backup -->
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="backup_successful">Backup successful</string>
+    <string name="restore_successful">Restore successful</string>
+    <string name="backup_failed">Backup failed</string>
+    <string name="restore_failed">Restore failed</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="insightful_reports">Insightful Reports\n</string>
+    <string name="visualize_spending">Visualize Funding</string>
+    <string name="budget_management">Budget Management</string>
+    <string name="set_monthly_budgets">Monthly Budget</string>
+    <string name="next">next</string>
+    <string name="reports_fragment">Reports Fragment</string>
+    <string name="budget_fragment">Budget Fragment</string>
+    <string name="no_transactions_available">No transactions available.</string>
+    <string name="add_transaction_button">Add Transaction</string>
+    <string name="description_tran">Description</string>
+    <string name="category_tran">Category</string>
+    <string name="amount_tran">Amount</string>
+    <string name="delete_transaction">Delete Transaction</string>
+    <string name="add_budget_dialog">Add Budget</string>
+    <string name="category_budget">Category</string>
+    <string name="amount_budget">Amount</string>
+    <string name="start_date_budget">Start Date</string>
+    <string name="end_date_budget">End Date</string>
+    <string name="add_budget_amount">Add</string>
+    <string name="delete_budget">Delete Budget</string>
+    <string name="target_budget_0_00">Target Budget: $0.00</string>
+    <string name="remaining_0_00">Remaining: $0.00</string>
+    <string name="profile">Profile</string>
+</resources>

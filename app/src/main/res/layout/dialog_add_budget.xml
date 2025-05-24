@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/rounded_dialog_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_budget_dialog"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/category_budget"
+        android:inputType="textCapWords"
+        android:backgroundTint="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/tvTargetBudgetTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Target Budget:"
+        android:textStyle="italic"
+        android:textColor="@color/secondary_text"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/amount_budget"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/tvStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_date_budget"
+        android:padding="12dp"
+        android:background="@drawable/spinner_bg"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/tvEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/end_date_budget"
+        android:padding="12dp"
+        android:background="@drawable/spinner_bg"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnAddBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_budget_amount"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

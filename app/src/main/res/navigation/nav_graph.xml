@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/onboardingFragment">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.financetracker.ui.fragments.DashboardFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_dashboard"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <fragment
+        android:id="@+id/navigation_transactions"
+        android:name="com.example.financetracker.ui.fragments.TransactionsFragment"
+        android:label="@string/transactions"
+        tools:layout="@layout/fragment_transactions"/>
+
+    <fragment
+        android:id="@+id/navigation_budget"
+        android:name="com.example.financetracker.ui.fragments.BudgetFragment"
+        android:label="@string/budget"
+        tools:layout="@layout/fragment_budget" />
+
+    <fragment
+        android:id="@+id/navigation_reports"
+        android:name="com.example.financetracker.ui.fragments.ReportsFragment"
+        android:label="@string/reports"
+        tools:layout="@layout/fragment_profile" />
+
+
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.example.financetracker.OnboardingFragment"
+        android:label="@string/onboarding"
+        tools:layout="@layout/fragment_onboarding" />
+
+</navigation> 
